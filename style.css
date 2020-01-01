@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 *{margin:0;padding:0;}
 body{font-family:Sans-Serif, Arial;-webkit-transition:all 0.3s ease;transition:all 0.3s ease;}
 img{width:100%;height:auto;}
@@ -14,6 +15,67 @@ p{line-height:150%;margin:1.5em;}
 .floatright{float:right;}
 /* ----------------------------------------- */
 /* style top maneu */
+.menu{
+	background:#373535;
+	min-height:52px;
+}
+.menu ul{
+	
+}
+.menu ul li{ 
+	list-style-type:none;
+	float:left;
+	position:relative;
+}
+.menu ul li a{
+	text-decoration:none;
+	background:#373535;
+	padding:11px 22px;
+	color:#fff;
+	display:block;
+	font-family: 'Oswald', sans-serif;
+	transition:all ease 0.5s;
+	-webkit-transition:all ease 0.5s;
+	-moz-transition:all ease 0.5s;
+}
+.menu ul li a:hover{
+	color:orange;
+}
+.menu ul li:hover{
+	border-bottom:5px solid orange;
+}
+
+/*----style dropdown-------*/
+.menu ul li ul{
+	position:absolute;
+	left:-9999px;
+	
+}
+.menu ul li ul li{
+	list-style-type:none;
+	float:none;
+	width:200px;
+}
+.menu ul li ul li a{
+	text-decoration:none;
+}
+.menu ul li ul li:last-child{
+	border-bottom:none;
+}
+.menu ul li:hover ul{
+	left:0;
+}
+.menu ul li ul li ul{
+	position:absolute;
+	top:-9999px;
+} 
+.menu ul li ul li:hover ul{
+	top:0;
+	margin-left:200px;
+}
+
+
+
 
 
 
