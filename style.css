@@ -132,7 +132,7 @@ p{line-height:150%;margin:1.5em;}
 .left_sidebar{
 	width:210px;
 	background:#D6DAAD;
-	padding-bottom:8px;
+	padding-bottom: 20px;;
 }
 .left_sidebar h2{
 	background:#008000;
@@ -191,7 +191,7 @@ blockquote{
 .right_sidebar{
 	width:210px;
 	background:#D6DAAD;
-	padding-bottom:8px;
+	padding-bottom:14px;
 	
 }
 .right_sidebar h2{
@@ -213,6 +213,37 @@ blockquote{
 .right_sidebar ul li a:hover{
 	text-decoration:underline;
 }
+.right_sidebar input[type=text]{
+	border: 2px solid #998a8a;
+	margin-left: 6px;
+	margin-top: 5px;
+	width: 189px;
+	padding: 3px;
+	margin-bottom:5px;
+}
+.right_sidebar input[type=email]{
+	border: 2px solid #998a8a;
+	margin-left: 6px;
+	margin-top: 5px;
+	width: 189px;
+	padding: 3px;
+	margin-bottom:5px;
+}
+.right_sidebar input[type=submit]{
+	background:#e6e1e1;
+	margin-left: 5px;
+	padding: 5px;
+	color:black;
+	font-family: arial;
+	cursor: pointer;
+}
+.contact_us_span{
+	margin-left:6px;
+}
+.last_list{
+	color:green
+}
+
 /* footer design  */
 .fotter_part{
 	background:#312F30;
